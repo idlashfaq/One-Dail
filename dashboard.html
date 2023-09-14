@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>One Dail</title>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+
+        <!-- styles -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+        <link rel="stylesheet" href="css/select2.min.css">
+        <link rel="stylesheet" href="css/select2-bootstrap4.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="calls-history-overlay"></div>
+        <div class="dashboard">
+            <aside id="sidebar">
+                <a href="javascript: void(0)" class="logo"><img src="images/small-logo.svg" alt=""></a>
+                <nav class="nav nav-bar">
+                    <a href="#tab-1" class="nav-bar--item active" data-toggle="tab">
+                        <div class="icon-rounded nav-bar--item__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33.296" height="33.344" viewBox="0 0 33.296 33.344">
+                                <path d="M26.673,46.133a3.28,3.28,0,0,0-2.379-1.091,3.391,3.391,0,0,0-2.407,1.084l-2.224,2.217c-.183-.1-.366-.19-.542-.281-.253-.127-.493-.246-.7-.373a24.17,24.17,0,0,1-5.792-5.278,14.26,14.26,0,0,1-1.9-3c.577-.528,1.112-1.077,1.633-1.6.2-.2.394-.4.591-.6a3.229,3.229,0,0,0,0-4.87l-1.921-1.921c-.218-.218-.443-.443-.654-.669-.422-.436-.866-.887-1.323-1.309A3.331,3.331,0,0,0,6.7,27.406a3.447,3.447,0,0,0-2.393,1.035l-.014.014L1.9,30.868A5.149,5.149,0,0,0,.373,34.141a12.337,12.337,0,0,0,.9,5.222,30.3,30.3,0,0,0,5.384,8.98,33.118,33.118,0,0,0,11.028,8.635,17.182,17.182,0,0,0,6.193,1.83c.148.007.3.014.443.014a5.3,5.3,0,0,0,4.061-1.745c.007-.014.021-.021.028-.035a16,16,0,0,1,1.232-1.274c.3-.289.612-.591.915-.908a3.511,3.511,0,0,0,1.063-2.435,3.382,3.382,0,0,0-1.084-2.414Zm2.519,7.41c-.007,0-.007.007,0,0-.274.3-.556.563-.859.859a18.5,18.5,0,0,0-1.358,1.408,3.393,3.393,0,0,1-2.646,1.119c-.106,0-.218,0-.324-.007a15.264,15.264,0,0,1-5.489-1.647A31.261,31.261,0,0,1,8.129,47.139,28.571,28.571,0,0,1,3.062,38.7,10.048,10.048,0,0,1,2.274,34.3a3.231,3.231,0,0,1,.971-2.09l2.4-2.4a1.6,1.6,0,0,1,1.07-.5,1.505,1.505,0,0,1,1.027.493l.021.021c.429.4.837.816,1.267,1.26.218.225.443.45.669.683l1.921,1.921a1.343,1.343,0,0,1,0,2.182c-.2.2-.4.408-.605.605-.591.605-1.154,1.168-1.766,1.717-.014.014-.028.021-.035.035a1.435,1.435,0,0,0-.366,1.6l.021.063a15.424,15.424,0,0,0,2.273,3.709l.007.007A25.83,25.83,0,0,0,17.4,49.286a9.609,9.609,0,0,0,.866.472c.253.127.493.246.7.373.028.014.056.035.084.049a1.526,1.526,0,0,0,.7.176,1.5,1.5,0,0,0,1.07-.486l2.407-2.407a1.592,1.592,0,0,1,1.063-.528,1.433,1.433,0,0,1,1.013.514l.014.014,3.878,3.878A1.391,1.391,0,0,1,29.192,53.543Z" transform="translate(-0.344 -25.477)" fill="currentColor"/>
+                                <path d="M245.726,87.81a9.057,9.057,0,0,1,7.375,7.375.944.944,0,0,0,.936.788,1.255,1.255,0,0,0,.162-.014.951.951,0,0,0,.781-1.1,10.952,10.952,0,0,0-8.924-8.924.955.955,0,0,0-1.1.774A.94.94,0,0,0,245.726,87.81Z" transform="translate(-227.73 -79.878)" fill="currentColor"/>
+                                <path d="M264.573,14.709A18.033,18.033,0,0,0,249.879.015a.949.949,0,1,0-.31,1.872A16.107,16.107,0,0,1,262.7,15.019a.944.944,0,0,0,.936.788,1.256,1.256,0,0,0,.162-.014A.932.932,0,0,0,264.573,14.709Z" transform="translate(-231.292 0)" fill="currentColor"/>
+                            </svg>                              
+                        </div>
+                        <span>Make a Call</span>
+                    </a>
+                    <a href="#tab-2" data-toggle="tab" class="nav-bar--item">
+                        <div class="icon-rounded nav-bar--item__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32.22" height="22.21" viewBox="0 0 32.22 22.21">
+                                <path d="M13.442,22.21a.82.82,0,0,1-.82-.82V20.353c.018-4.512,4.415-8.182,9.8-8.182a10.768,10.768,0,0,1,6.9,2.387,7.567,7.567,0,0,1,2.9,5.761c0,.013,0,.028,0,.042v1.03a.82.82,0,0,1-.82.82Zm15.985-2.62c-.5-2.825-3.451-5-7.006-5s-6.5,2.175-7,5ZM9.989,22.21H.822A.821.821,0,0,1,0,21.39v-1.04c.018-4.511,4.415-8.18,9.8-8.18a11.4,11.4,0,0,1,3.307.482,11.722,11.722,0,0,0-1.65,2.1A8.41,8.41,0,0,0,9.8,14.59c-3.489,0-6.5,2.149-7,5H9.874c-.021.275-.032.557-.032.841a10.735,10.735,0,0,0,.148,1.778l0,0ZM18.272,4.13a4.231,4.231,0,0,1,8.46,0,4.231,4.231,0,0,1-8.46,0Zm2.6,0a1.67,1.67,0,0,0,3.34,0,1.67,1.67,0,0,0-3.34,0Zm-15.2,0a4.231,4.231,0,0,1,8.46,0,4.231,4.231,0,0,1-8.46,0Zm2.579,0a1.67,1.67,0,0,0,3.34,0,1.67,1.67,0,0,0-3.34,0Z" transform="translate(-0.002)" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span>Your Profile</span>
+                    </a>
+                    <a href="#tab-3" data-toggle="tab" class="nav-bar--item">
+                        <div class="icon-rounded nav-bar--item__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="27.001" viewBox="0 0 30 27.001">
+                                <path d="M6.23,27H1a1,1,0,0,1-1-1V20.64a1,1,0,0,1,1-1H6.23a1,1,0,0,1,1,1V26A1,1,0,0,1,6.23,27ZM3.409,22.07a1,1,0,0,0-1,1v.5a1,1,0,0,0,1,1H3.79a1,1,0,0,0,1-1v-.5a1,1,0,0,0-1-1ZM29,24.57H11.81a1,1,0,0,1-1-1v-.5a1,1,0,0,1,1-1H29a1,1,0,0,1,1,1v.5A1,1,0,0,1,29,24.57ZM6.23,17.179H1a1,1,0,0,1-1-1v-5.36a1,1,0,0,1,1-1H6.23a1,1,0,0,1,1,1v5.36A1,1,0,0,1,6.23,17.179ZM3.409,12.29a1,1,0,0,0-1,1v.43a1,1,0,0,0,1,1H3.79a1,1,0,0,0,1-1v-.43a1,1,0,0,0-1-1ZM29,14.719H11.81a1,1,0,0,1-1-1v-.43a1,1,0,0,1,1-1H29a1,1,0,0,1,1,1v.43A1,1,0,0,1,29,14.719ZM6.23,7.359H1a1,1,0,0,1-1-1V1A1,1,0,0,1,1,0H6.23a1,1,0,0,1,1,1V6.359A1,1,0,0,1,6.23,7.359ZM3.409,2.43a1,1,0,0,0-1,1v.5a1,1,0,0,0,1,1H3.79a1,1,0,0,0,1-1v-.5a1,1,0,0,0-1-1ZM29,4.929H11.81a1,1,0,0,1-1-1v-.5a1,1,0,0,1,1-1H29a1,1,0,0,1,1,1v.5A1,1,0,0,1,29,4.929Z" transform="translate(0 0.001)" fill="currentColor"/>
+                            </svg>                              
+                        </div>
+                        <span>Contacts</span>
+                    </a>
+                    <a href="#tab-4" data-toggle="tab" class="nav-bar--item">
+                        <div class="icon-rounded nav-bar--item__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30.001" height="28.06" viewBox="0 0 30.001 28.06">
+                                <path d="M5,28.06a5.006,5.006,0,0,1-5-5V5A5.006,5.006,0,0,1,5,0H25.32V.01A5.006,5.006,0,0,1,30,5V23.06a5.006,5.006,0,0,1-5,5ZM2.809,4.811V23.24a2,2,0,0,0,2,2h20.38a2,2,0,0,0,2-2V4.811a2,2,0,0,0-1.869-2V2.82H5.629V2.81H4.81A2,2,0,0,0,2.809,4.811ZM6.559,7.5V7.475H6.6a1.41,1.41,0,1,1,2.773.361,5.621,5.621,0,0,0,11.219-.108,1.41,1.41,0,1,1,2.786-.071A8.41,8.41,0,0,1,6.559,7.5Z" transform="translate(0.001)" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span>Resources</span>
+                    </a>
+                    <a href="#tab-5" data-toggle="tab" class="nav-bar--item ">
+                        <div class="icon-rounded nav-bar--item__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="31.115" height="31.115" viewBox="0 0 31.115 31.115">
+                                <g transform="translate(0)">
+                                    <path d="M61.912,151.331H73.458a.912.912,0,0,0,.912-.912v-8.508a.912.912,0,0,0-.912-.912H61.912a.912.912,0,0,0-.912.912v8.508A.912.912,0,0,0,61.912,151.331Zm2.2-1.823,1.446-1.446L67,149.508Zm5.469,0-.91-.91,1.14-1.521,1.823,2.431Zm-6.758-6.685h9.723v4.862l-2.005-2.674a.912.912,0,0,0-1.458,0L67.369,147.3,66.2,146.129a.912.912,0,0,0-1.289,0l-2.09,2.09Z" transform="translate(-57.293 -132.431)" fill="currentColor"/>
+                                    <path d="M29.747,4.655a2.735,2.735,0,0,0-3.494.649V3.342A3.346,3.346,0,0,0,22.91,0H3.342A3.346,3.346,0,0,0,0,3.342v24.43a3.346,3.346,0,0,0,3.342,3.342H22.91a3.346,3.346,0,0,0,3.342-3.342v-11.6l4.495-7.786a2.735,2.735,0,0,0-1-3.736ZM20.176,1.823H22.91A1.521,1.521,0,0,1,24.43,3.342V4.862H20.176ZM1.823,3.342A1.521,1.521,0,0,1,3.342,1.823h15.01V4.862H1.823ZM24.43,27.772a1.519,1.519,0,0,1-1.519,1.519H3.342a1.519,1.519,0,0,1-1.519-1.519V6.685H24.43V8.4l-6.926,12a.911.911,0,0,0-.1.262l-.147.676H4.644a.929.929,0,0,0-.936.867.912.912,0,0,0,.911.956H16.859l-.528,2.431H4.644a.928.928,0,0,0-.936.868.912.912,0,0,0,.911.956H17.137a.912.912,0,0,0,.6-.23l4.314-3.825a.912.912,0,0,0,.185-.226l2.19-3.793v8.438Zm-5.511-5.51.981.566L18.532,24.04Zm2.2-.836-1.579-.912L24.4,12.094l1.579.912Zm5.773-10-1.579-.912.912-1.579,1.579.912Zm2.279-3.947-.456.789-1.579-.912.456-.789a.912.912,0,1,1,1.579.912Z" fill="currentColor"/>
+                                </g>
+                            </svg>                              
+                        </div>
+                        <span>Articles</span>
+                    </a>
+                </nav>
+            </aside>
+            <main id="content-holder">
+                <header id="main-header">
+                    <div class="h-list user-name">
+                        <span>Hello, nickname</span>
+                        <div class="devider"></div>
+                        <a href="javascript: void(0)" class="icon-rounded action-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18.738" height="14.232" viewBox="0 0 18.738 14.232">
+                                <path d="M0,61.323v9.486a2.378,2.378,0,0,0,2.373,2.373H10.04a2.378,2.378,0,0,0,2.373-2.373V69.273a.47.47,0,1,0-.94,0v1.536a1.44,1.44,0,0,1-1.437,1.437H2.373A1.44,1.44,0,0,1,.936,70.809V61.323a1.44,1.44,0,0,1,1.437-1.437H10.04a1.44,1.44,0,0,1,1.437,1.437V62.86a.47.47,0,1,0,.94,0V61.323a2.378,2.378,0,0,0-2.373-2.373H2.373A2.376,2.376,0,0,0,0,61.323Z" transform="translate(0 -58.95)" fill="currentColor"/>
+                                <path d="M213.145,156.162a.471.471,0,0,0,.665,0l3.206-3.206a.466.466,0,0,0,0-.661l-3.206-3.206a.468.468,0,1,0-.661.661l2.408,2.408H206.77a.47.47,0,0,0,0,.94h8.783l-2.408,2.408A.461.461,0,0,0,213.145,156.162Z" transform="translate(-198.416 -145.51)" fill="currentColor"/>
+                            </svg>                              
+                        </a>
+                        <div class="devider"></div>
+                        <button class="btn btn-danger">Escape</button>
+                    </div>
+                </header>
+                <div class="calls-history">
+                    <header class="header">
+                        <div class="icon-rounded cross-icon">
+                            <img src="images/icons/close-icon.svg" alt="" />
+                        </div>
+                        <h4 class="mb-0">Call history</h4>
+                        <span class="font-size-14">Your most recent calls</span>
+                    </header>
+                    <div class="body">
+                        <div class="item">
+                            <div class="title" data-duration="Call duration 23:34 sec">5 May 2021</div>
+                            <div class="time">1H AGO</div>
+                        </div>
+                        <div class="item">
+                            <div class="title" data-duration="Call duration 23:34 sec">5 May 2021</div>
+                            <div class="time">2H AGO</div>
+                        </div>
+                        <div class="item">
+                            <div class="title" data-duration="Call duration 23:34 sec">5 May 2021</div>
+                            <div class="time">4H AGO</div>
+                        </div>
+                        <div class="item">
+                            <div class="title" data-duration="Call duration 23:34 sec">5 May 2021</div>
+                            <div class="time">1D AGO</div>
+                        </div>
+                        <div class="item">
+                            <div class="title" data-duration="Call duration 23:34 sec">5 May 2021</div>
+                            <div class="time">2D AGO</div>
+                        </div>
+                        <div class="item">
+                            <div class="title" data-duration="Call duration 23:34 sec">5 May 2021</div>
+                            <div class="time">2D AGO</div>
+                        </div>
+                        <div class="item">
+                            <div class="title" data-duration="Call duration 23:34 sec">5 May 2021</div>
+                            <div class="time">2D AGO</div>
+                        </div>
+                        <div class="item">
+                            <div class="title" data-duration="Call duration 23:34 sec">5 May 2021</div>
+                            <div class="time">2D AGO</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="content-body">
+                    <div class="tab-content">
+                        <div class="tab-pane position-relative active" id="tab-1">
+                            <div class="grid" data-gap="20">
+                                <h2 class="section-title" data-tagline="Talk to a volunteer">Make a call</h2>
+                                <div>
+                                    <div class="calling-popup">
+                                        <h3 class="calling-popup--title">Calling...</h3>
+                                        <div class="grid" data-gap="20">
+                                            <div class="h-list buttons-holder">
+                                                <button class="btn btn-success">Call</button>
+                                                <button class="btn btn-danger">Hang up</button>
+                                            </div>
+                                            <span class="text-white font-size-15">Please select 'Allow' if you receive a message asking to use your microphone</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="h-list justify-content-center justify-content-lg-end">
+                                    <a href="#" class="btn btn-light call-log-button">Call Log</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane position-relative fade" id="tab-2">
+                            <div class="grid" data-gap="20">
+                                <h2 class="section-title" data-tagline="Edit your Information">Your profile</h2>
+                                <div>
+                                    <form class="grid max-width-325" data-gap="40">
+                                        <div class="grid" data-gap="15">
+                                            <input class="form-control" id="datepicker" placeholder="Email Address"/>
+                                            <input class="form-control" placeholder="Nickname"/>
+                                            <select class="select2">
+                                                <option>Year of birth</option>
+                                                <option>2021</option>
+                                                <option>2020</option>
+                                                <option>2019</option>
+                                                <option>2018</option>
+                                                <option>2017</option>
+                                                <option>2016</option>
+                                            </select>
+                                            <input class="form-control" placeholder="Password"/>
+                                            <select class="select2">
+                                                <option>Gender</option>
+                                                <option>Male</option>
+                                                <option>Female</option>
+                                            </select>
+                                            <select class="select2">
+                                                <option>Connections to Ryerson</option>
+                                                <option>Muhammad Ashfaq</option>
+                                                <option>Junaid</option>
+                                                <option>Imran</option>
+                                                <option>Tauqeer</option>
+                                            </select>
+                                        </div>
+                                        <div class="grid text-center" data-gap="10">
+                                            <span class="save-information-note">Done updating your information? Save it</span>
+                                            <button class="btn btn-light">Save Changes</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane position-relative fade" id="tab-3">
+                            <div class="grid" data-gap="20">
+                                <div class="fr-auto">
+                                    <h2 class="section-title" data-tagline="Contact details for important personnel or offices">Contacts</h2>
+                                    <a href="#" class="btn btn-light load-data">Load More Data</a>
+                                </div>
+                                <div class="info-box">
+                                    <header class="info-box--header">
+                                        <form class="search-field">
+                                            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                                                <path d="M0,16.549l4.974-4.872A7.041,7.041,0,0,1,3.338,7.168,7.259,7.259,0,0,1,10.668,0,7.26,7.26,0,0,1,18,7.168a7.261,7.261,0,0,1-7.332,7.169,7.4,7.4,0,0,1-4.155-1.266L1.481,18ZM5.439,7.188a5.192,5.192,0,0,0,5.25,5.119,5.192,5.192,0,0,0,5.25-5.119,5.192,5.192,0,0,0-5.25-5.119A5.191,5.191,0,0,0,5.439,7.188Z" fill="rgba(34,34,34,0.5)"/>
+                                            </svg>                                              
+                                            <input type="text" class="form-control" placeholder="Search for..." />
+                                            <button class="icon-rounded action-button">Go</button>
+                                        </form>
+                                    </header>
+                                    <div class="info-box--body" id="contacts-list-holder">
+                                        <div class="loader-holder"></div>
+                                        <div class="item">
+                                            <a href="javascript: void(0);" class="title" data-tagline="Vice President, Ryerson">John Doe</a>
+                                            <a href="mailto: user@ryerson.ca" class="info" data-tagline="+1-822-654-6666">user@ryerson.ca</a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="javascript: void(0);" class="title" data-tagline="Vice President, Ryerson">John Doe</a>
+                                            <a href="mailto: user@ryerson.ca" class="info" data-tagline="+1-822-654-6666">user@ryerson.ca</a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="javascript: void(0);" class="title" data-tagline="Vice Principal">Tom Cruise</a>
+                                            <a href="mailto: user@ryerson.ca" class="info" data-tagline="+1-822-654-6666">user@ryerson.ca</a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="javascript: void(0);" class="title" data-tagline="Someone">Junaid Amjad</a>
+                                            <a href="mailto: user@ryerson.ca" class="info" data-tagline="+1-822-654-6666">user@ryerson.ca</a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="javascript: void(0);" class="title" data-tagline="Designation or office">Firstname Lastname</a>
+                                            <a href="mailto: user@ryerson.ca" class="info" data-tagline="+1-822-654-6666">user@ryerson.ca</a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="javascript: void(0);" class="title" data-tagline="Designation or office">Firstname Lastname</a>
+                                            <a href="mailto: user@ryerson.ca" class="info" data-tagline="+1-822-654-6666">user@ryerson.ca</a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="javascript: void(0);" class="title" data-tagline="Designation or office">Firstname Lastname</a>
+                                            <a href="mailto: user@ryerson.ca" class="info" data-tagline="+1-822-654-6666">user@ryerson.ca</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane position-relative fade" id="tab-4">
+                            <div class="grid" data-gap="20">
+                                <div class="h-list justify-content-between">
+                                    <h2 class="section-title" data-tagline="Links to downloadable resources and websites">Resources</h2>
+                                    <div class="fr-auto filter-by position-relative" data-gap="10">
+                                        <input type="text" class="dp">
+                                        <span>Filter by</span>
+                                        <div class="icon-rounded">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14.163" height="14.163" viewBox="0 0 14.163 14.163">
+                                                <path d="M2738.01,5543.629a1.281,1.281,0,0,1,1.09-1.088l3.74-.4-6.086-6.069a.8.8,0,0,1,0-1.124l.236-.235a.8.8,0,0,1,1.126,0l5.958,5.941.389-3.6a1.334,1.334,0,0,1,1.135-1.133.8.8,0,0,1,.914.913l-.627,5.806a.943.943,0,0,1,0,.15,1.085,1.085,0,0,1-.028.152l0,.024a1.334,1.334,0,0,1-1.135,1.131.858.858,0,0,1-.607-.147l-5.219.561a.988.988,0,0,1-.106.006A.756.756,0,0,1,2738.01,5543.629Z" transform="translate(-1971.386 5862.643) rotate(-135)" fill="currentColor"/>
+                                            </svg>                                              
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info-box resources">
+                                    <header class="info-box--header justify-content-between">
+                                        <div class="h-list sort-by" data-gap="15">
+                                            <span>Sort by</span>
+                                            <div class="dd-holder">
+                                                <select class="form-control">
+                                                    <option>Latest</option>
+                                                    <option>Trending</option>
+                                                    <option>Recent</option>
+                                                </select>
+                                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="11.974" height="6.001" viewBox="0 0 11.974 6.001">
+                                                    <path d="M4.6,5.637.431,2.122a1.111,1.111,0,0,1,0-1.758,1.669,1.669,0,0,1,2.082,0L6.089,3.383,9.548.464a1.613,1.613,0,0,1,2.01,0,1.073,1.073,0,0,1,0,1.7L7.537,5.557a1.6,1.6,0,0,1-1.28.329A1.7,1.7,0,0,1,5.637,6,1.614,1.614,0,0,1,4.6,5.637Z" fill="rgba(34,34,34,0.75)"/>
+                                                </svg>                                        
+                                            </div>
+                                        </div>
+                                        <form class="search-field">
+                                            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                                                <path d="M0,16.549l4.974-4.872A7.041,7.041,0,0,1,3.338,7.168,7.259,7.259,0,0,1,10.668,0,7.26,7.26,0,0,1,18,7.168a7.261,7.261,0,0,1-7.332,7.169,7.4,7.4,0,0,1-4.155-1.266L1.481,18ZM5.439,7.188a5.192,5.192,0,0,0,5.25,5.119,5.192,5.192,0,0,0,5.25-5.119,5.192,5.192,0,0,0-5.25-5.119A5.191,5.191,0,0,0,5.439,7.188Z" fill="rgba(34,34,34,0.5)"/>
+                                            </svg>                                              
+                                            <input type="text" class="form-control" placeholder="Search for..." />
+                                            <button class="icon-rounded action-button">Go</button>
+                                        </form>
+                                    </header>
+                                    <div class="info-box--body">
+                                        <div class="item">
+                                            <div class="auto-fr" data-gap="20">
+                                                <div class="icon-rounded file file-pdf">PDF</div>
+                                                <a href="#" class="title" data-tagline="A short description of the resource">Latest Research Paper by Ryerson</a>
+                                            </div>
+                                            <div class="info" data-tagline="4.3 MB">21 Feb 2021</div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="auto-fr" data-gap="20">
+                                                <div class="icon-rounded file file-doc">DOC</div>
+                                                <a href="#" class="title" data-tagline="Description of document">Title of file</a>
+                                            </div>
+                                            <div class="info" data-tagline="4.3 MB">21 Feb 2021</div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="auto-fr" data-gap="20">
+                                                <div class="icon-rounded file file-ppt">PPT</div>
+                                                <a href="#" class="title" data-tagline="Authored by Dr. John Doe">RSU Presentation</a>
+                                            </div>
+                                            <div class="info" data-tagline="4.3 MB">21 Feb 2021</div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="auto-fr" data-gap="20">
+                                                <div class="icon-rounded file file-jpg">JPG</div>
+                                                <a href="#" class="title" data-tagline="It was taken at RSU ">A new picture</a>
+                                            </div>
+                                            <div class="info" data-tagline="57 KB">1 May 2021</div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="auto-fr" data-gap="20">
+                                                <div class="icon-rounded file file-link">LINK</div>
+                                                <a href="#" class="title" data-tagline="This will take you to a YouTube video">A video lecture on something</a>
+                                            </div>
+                                            <div class="info" data-tagline="External Link">4th May 2021</div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="auto-fr" data-gap="20">
+                                                <div class="icon-rounded file file-link">LINK</div>
+                                                <a href="#" class="title" data-tagline="This will take you to a YouTube video">A video lecture on something</a>
+                                            </div>
+                                            <div class="info" data-tagline="External Link">4th May 2021</div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="auto-fr" data-gap="20">
+                                                <div class="icon-rounded file file-link">LINK</div>
+                                                <a href="#" class="title" data-tagline="This will take you to a YouTube video">A video lecture on something</a>
+                                            </div>
+                                            <div class="info" data-tagline="External Link">4th May 2021</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane position-relative fade" id="tab-5">
+                            <div class="grid" data-gap="20">
+                                <h2 class="section-title" data-tagline="Insightful information for Onedial members">Articles</h2>
+                                <div class="info-box">
+                                    <header class="info-box--header justify-content-between">
+                                        <div class="h-list sort-by" data-gap="15">
+                                            <span>Sort by</span>
+                                            <div class="dd-holder">
+                                                <select class="form-control">
+                                                    <option>Latest</option>
+                                                    <option>Trending</option>
+                                                    <option>Recent</option>
+                                                </select>
+                                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="11.974" height="6.001" viewBox="0 0 11.974 6.001">
+                                                    <path d="M4.6,5.637.431,2.122a1.111,1.111,0,0,1,0-1.758,1.669,1.669,0,0,1,2.082,0L6.089,3.383,9.548.464a1.613,1.613,0,0,1,2.01,0,1.073,1.073,0,0,1,0,1.7L7.537,5.557a1.6,1.6,0,0,1-1.28.329A1.7,1.7,0,0,1,5.637,6,1.614,1.614,0,0,1,4.6,5.637Z" fill="rgba(34,34,34,0.75)"/>
+                                                </svg>                                                  
+                                            </div>
+                                        </div>
+                                        <form class="search-field">
+                                            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                                                <path d="M0,16.549l4.974-4.872A7.041,7.041,0,0,1,3.338,7.168,7.259,7.259,0,0,1,10.668,0,7.26,7.26,0,0,1,18,7.168a7.261,7.261,0,0,1-7.332,7.169,7.4,7.4,0,0,1-4.155-1.266L1.481,18ZM5.439,7.188a5.192,5.192,0,0,0,5.25,5.119,5.192,5.192,0,0,0,5.25-5.119,5.192,5.192,0,0,0-5.25-5.119A5.191,5.191,0,0,0,5.439,7.188Z" fill="rgba(34,34,34,0.5)"/>
+                                            </svg>                                              
+                                            <input type="text" class="form-control" placeholder="Search for..." />
+                                            <button class="icon-rounded action-button">Go</button>
+                                        </form>
+                                    </header>
+                                    <div class="info-box--body">
+                                        <a href="#" class="item popup-trigger">
+                                            <h4 class="title" data-tagline="Some great tips on getting an A">How to ace your exam</h4>
+                                            <div class="info" data-tagline="Published on 2nd May">By John Doe</div>
+                                        </a>
+                                        <a href="#" class="item popup-trigger">
+                                            <h4 class="title" data-tagline="A short description of the article">Article Title</h4>
+                                            <div class="info" data-tagline="Date Published">By Author Name</div>
+                                        </a>
+                                        <a href="#" class="item popup-trigger">
+                                            <h4 class="title" data-tagline="Some great tips on getting an A">How to ace your exam</h4>
+                                            <div class="info" data-tagline="Published on 2nd May">By Ronald Mcdonald</div>
+                                        </a>
+                                        <a href="#" class="item popup-trigger">
+                                            <h4 class="title" data-tagline="Some great tips on getting an A">Why do we fail</h4>
+                                            <div class="info" data-tagline="Published on 2nd May">By Ronald Mcdonald</div>
+                                        </a>
+                                        <a href="#" class="item popup-trigger">
+                                            <h4 class="title" data-tagline="Some great tips on getting an A">A new article</h4>
+                                            <div class="info" data-tagline="Published on 2nd May">By John Doe</div>
+                                        </a>
+                                        <a href="#" class="item popup-trigger">
+                                            <h4 class="title" data-tagline="Some great tips on getting an A">A new article</h4>
+                                            <div class="info" data-tagline="Published on 2nd May">By John Doe</div>
+                                        </a>
+                                        <a href="#" class="item popup-trigger">
+                                            <h4 class="title" data-tagline="Some great tips on getting an A">A new article</h4>
+                                            <div class="info" data-tagline="Published on 2nd May">By John Doe</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="article-popup">
+                                <a href="#" class="close-popup">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10.664" height="10.665" viewBox="0 0 10.664 10.665">
+                                        <g id="Group_3" data-name="Group 3" transform="translate(-844.654 -4449.653)">
+                                            <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" d="M854.974,4450a1.176,1.176,0,0,1,0,1.663l-8.313,8.313a1.176,1.176,0,0,1-1.663-1.663l8.313-8.313A1.175,1.175,0,0,1,854.974,4450Z" fill="#fff"/>
+                                            <path id="Rounded_Rectangle_1_copy_3" data-name="Rounded Rectangle 1 copy 3" d="M846.661,4450l8.313,8.313a1.176,1.176,0,1,1-1.663,1.663L845,4451.66a1.176,1.176,0,0,1,1.663-1.663Z" fill="#fff"/>
+                                        </g>
+                                    </svg>                                                                                            
+                                </a>
+                                <div class="scroll-area">
+                                    <div class="grid" data-gap="20">
+                                        <h4 class="article-popup--title" data-tagline="Description of the article in a subheading">Article title</h4>
+                                        <div class="content-holder">
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also tLetraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also tLetraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also tLetraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also tLetraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!-- scripts -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.mCustomScrollbar.js"></script>
+        <script src="js/bootstrap-datepicker.min.js"></script>
+        <script src="js/select2.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

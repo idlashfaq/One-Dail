@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>One Dail</title>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+
+        <!-- styles -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/select2.min.css">
+        <link rel="stylesheet" href="css/select2-bootstrap4.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body class="splash-page">
+        <div class="intro-main">
+            <figure class="r-logo">
+                <img alt="" src="images/r-logo.png" />
+            </figure>
+            <div class="intro">
+                <a href="#" class="logo wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s"><img alt="" src="images/logo.svg" /></a>
+                <div class="grid" data-gap="30">
+                    <div class="grid" data-gap="25">
+                        <button href="#" class="btn btn-light" data-step="1">Sign In</button>
+                        <div class="or-devider"><span>OR</span></div>
+                    </div>
+                    <div class="grid" data-gap="15">
+                        <button href="#" class="btn btn-light btn-sm" data-step="2">Sign Up</button>
+                        <button href="#" class="btn btn-light btn-sm">Use as Guest</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="auth-screens">
+            <div class="icon-rounded cross-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24.213" height="24.213" viewBox="0 0 24.213 24.213">
+                    <path d="M1567.046,70.167l-9.546-9.545-9.546,9.545a1.5,1.5,0,0,1-2.121-2.12l9.546-9.546-9.546-9.545a1.5,1.5,0,1,1,2.121-2.122l9.546,9.546,9.546-9.546a1.5,1.5,0,1,1,2.121,2.122l-9.546,9.545,9.546,9.546a1.5,1.5,0,1,1-2.121,2.12Z" transform="translate(-1545.393 -46.394)" fill="currentColor"/>
+                </svg>              
+            </div>
+            <div class="view view-1">
+                <form class="form-holder" data-gap="0" action="">
+                    <a href="javascript: void(0)" class="logo mx-auto"><img src="images/small-logo.svg" alt=""></a>
+                    <div class="auth-screens--title">
+                        <small>WE'RE HERE TO HELP</small>
+                        <h4>Enter your nickname and password</h4>
+                    </div>
+                    <div class="inner">
+                        <div class="grid" data-gap="30">
+                            <div class="grid" data-gap="20">
+                                <input class="form-control" placeholder="Username"/>
+                                <input class="form-control" placeholder="Password"/>
+                            </div>
+                            <div class="auto-fr pl-3" data-gap="20">		
+                                <div class="switch-button">
+                                    <input type="checkbox" />
+                                    <span></span>
+                                </div>
+                                <div class="font-size-14 text-white font-weight-500">Keep me logged in</div>
+                            </div>
+                            <div class="grid" data-gap="10">
+                                <a href="javascript: void(0);" class="btn btn-light">Sign In</a>
+                                <a href="#" class="forgot-password-link" data-step="3">Forgot Password ?</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="view view-2">
+                <form class="form-holder">
+                    <a href="javascript: void(0)" class="logo mx-auto"><img src="images/small-logo.svg" alt=""></a>
+                    <h5 class="view-2--title">Enter your nickname and password</h5>
+                    <div class="inner">
+                        <div class="grid" data-gap="30">
+                            <div class="grid" data-gap="15">
+                                <input class="form-control" placeholder="Email Address"/>
+                                <input class="form-control" placeholder="Nickname"/>
+                                <input class="form-control" placeholder="Year of birth"/>
+                                <select class="select2">
+                                    <option>Year of birth</option>
+                                    <option>2021</option>
+                                    <option>2020</option>
+                                    <option>2019</option>
+                                    <option>2018</option>
+                                    <option>2017</option>
+                                    <option>2016</option>
+                                </select>
+                                <input class="form-control" placeholder="Password"/>
+                                <input class="form-control" placeholder="Gender"/>
+                                <select class="select2">
+                                    <option>Gender</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                                <select class="select2">
+                                    <option>Connections to Ryerson</option>
+                                    <option>Muhammad Ashfaq</option>
+                                    <option>Junaid</option>
+                                    <option>Imran</option>
+                                    <option>Tauqeer</option>
+                                </select>
+                            </div>
+                            <div class="auto-fr" data-gap="15">
+                                <div class="switch-button">
+                                    <input type="checkbox" />
+                                    <span></span>
+                                </div>
+                                <div class="font-weight-500">I agree to the RSU terms and conditions</div>
+                            </div>
+                            <a href="javascript: void(0);" class="btn btn-light">Sign up</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="view view-3">
+                <form class="form-holder" action="">
+                    <a href="javascript: void(0)" class="logo mx-auto"><img src="images/small-logo.svg" alt=""></a>
+                    <div class="auth-screens--title">
+                        <h4>Forgot your password?</h4>
+                        <small>Enter your registered email to reset it</small>
+                    </div>
+                    <div class="inner">
+                        <div class="grid" data-gap="20">
+                            <input type="email" class="form-control" placeholder="Email Address"/>
+                            <a href="javascript: void(0);" class="btn btn-light get-password">Get a new password</a>
+                        </div>
+                    </div>
+                    <div class="password-sent">
+                        <div class="grid" data-gap="20">
+                            <figure class="icon-rounded image-holder">
+                                <img src="images/password-sent.svg" />
+                            </figure>
+                            <div class="grid" data-gap="7">
+                                 <div class="password-sent--title">Password sent!</div>
+                                <div class="last-margin-0 password-sent--desc">
+                                    <p>We sent a new password to the email address that you used to register with us. You can change it after you log in.</p>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <a href="javascript: void(0);" class="btn h-list password-sent-button">
+                                    <img src="images/icons/done-icon.svg" alt="" />
+                                    <span>Done</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+         <!-- scripts -->
+         <script src="js/jquery.min.js"></script>
+         <script src="js/popper.min.js"></script>
+         <script src="js/bootstrap.min.js"></script>
+         <script src="js/select2.min.js"></script>
+         <script src="js/wow.min.js"></script>
+         <script src="js/main.js"></script>
+    </body>
+</html>
